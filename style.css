@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap');
+
+
+:root{
+    --corxgo1: #8000f8;
+    --corxgo2: #5e17eb;
+    --gradient: linear-gradient(36deg, rgba(128,0,248,1) 66%, rgba(244,63,145,1) 100%);
+    --fontexgo: 'SemiBold 600', arial, serif;
+}
+
