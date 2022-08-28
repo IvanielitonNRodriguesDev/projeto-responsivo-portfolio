@@ -10,5 +10,80 @@
 }
 body{
     font-family: var(--fontexgo);
+    margin: 0px;
+    padding: 0px;
     
 }
+header img{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    margin-top: 1em;
+    
+}
+header nav{
+    background-color: var(--corxgo1);
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.308);
+    
+}
+header nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    display: block;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+
+}
+header nav ul li a:hover{
+    background-color: var(--corxgo2);
+}
+.bannerflex{
+    padding: 1.5em;
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.534);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.212);
+
+}
+.bannerflex img{
+    width: 300px;
+    height: 350px;
+    border-radius: 50px;
+}
+.bannerflex h1{
+    font-size: 2em;
+    
+}
+.bannerflex h2{
+    font-size: 1.5em;
+    margin: 1em;
+}
+.bannerflex a{
+    color: white;
+    background-color: var(--corxgo1);
+    font-size: 1em;
+    padding: 0.7em 2em;
+    margin: 1em;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid var(--corxgo1);
+    
+    
+}
+.bannerflex a:hover{
+    background-color: white;
+    border: 1px solid var(--corxgo1);
+    color: var(--corxgo1);
+    font-weight: bold;
+}
+
