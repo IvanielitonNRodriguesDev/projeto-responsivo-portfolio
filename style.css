@@ -9,5 +9,6 @@
     --fontexgo: 'SemiBold 600', arial, serif;
 }
 body{
+    font-family: var(--fontexgo);
     
 }
