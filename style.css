@@ -50,7 +50,7 @@ header nav ul li a:hover{
     padding: 1.5em;
     text-align: center;
     background-color: rgba(206, 206, 206, 0.534);
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.212);
+    
 
 }
 .bannerflex img{
@@ -86,4 +86,79 @@ header nav ul li a:hover{
     color: var(--corxgo1);
     font-weight: bold;
 }
+main h2{
+    margin: 50px 0px 50px 0px;
+    font-size: 1.7em;
+    color: var(--corxgo1);
+    text-shadow: 0px 0px 1px black;
+}
+main h3{
+    margin: 10px 0px 10px 0px;
+    font-size: 1.2em;
+    color: var(--corxgo1);
+    text-shadow: 0px 0px 1px black;
+}
+main article{
+    margin-bottom: 50px;
+}
+main .container1{
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.534);
+    line-height: 1.5em;
+    font-size: 1.2em;
+    
+}
+main .container1 h2{
+    margin: 10px 0px 60px 0px;
+}
+main .container1 .ultimoart{
+    margin-bottom: 10px;
+}
 
+main .container2{
+    padding: 0.1em 2em;
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.534);
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+main .container2 h2{
+    margin-bottom: 2em;
+}
+main .container2 a{
+    color: var(--corxgo1);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+main .container2 a img{
+    width: 400px;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+    
+}
+main .container2 a img:hover{
+    transform: scale(1.1);
+    
+}
+main .container2 a:hover{
+    text-decoration: underline;
+    
+}
+main .container2 a p{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+main .container3{
+    padding: 0.1em 2em;
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.534);
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+main .container3 .cursos{
+    text-align: left;
+}
+main .container3 .cursos a{
+    
+}
