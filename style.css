@@ -12,11 +12,18 @@ body, html{
     font-family: var(--fontexgo);
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+}
+header:after, .row:after{
+    content: ' ';
+    display: block;
+    clear: both;
 }
 span{
     font-weight: bold;
     color: var(--corxgo1);
 }
+
 header img{
     width: 300px;
     height: 70px;
@@ -49,6 +56,7 @@ header nav ul li a{
 header nav ul li a:hover{
     background-color: var(--corxgo2);
 }
+
 .bannerflex{
     padding: 1.5em;
     text-align: center;
@@ -127,6 +135,7 @@ main .container1 h2{
 }
 main .container1 .ultimoart{
     margin-bottom: 10px;
+    
 }
 
 main .container2{
@@ -184,13 +193,34 @@ main .container3 ul li a:hover{
 main .container3 .cursos{
     text-align: left;
 }
+.bot-home{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.bot-home p{
+    
+    color: white;
+    background-image: var(--gradient);
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 1s;
+    width: 200px;
+}
+
+.bot-home p:hover{
+    transform: scale(1.2);
+}
+.PC{
+    margin-bottom: 30px;
+}
 .PC img{
     width: 400px;
     border: 3px solid var(--corxgo1);
     border-radius: 20px;
 }
 footer{
-    background-color: #000000;
+    background-color: black;
     margin: 0px;
     border-bottom: 1px solid black;
     box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.404);
@@ -250,10 +280,9 @@ footer .autor span{
         margin-bottom: 0px;
         padding-bottom: 0px;
         box-shadow: inset 0px 0px 10px 1px black;
+        background-attachment: fixed;
     }
-    .bannerflex{
 
-    }
     main h3{
         font-size: 1.3em;
     }
@@ -263,6 +292,23 @@ footer .autor span{
     main .container2 a img{
         width: 550px; 
     }
+    .col-1-4{
+        width: 40%;
+        margin: 3%;
+        float: left;
+        
+    }
+    main .container2 a{
+        margin: 5px 20px 5px 5px;
+    }
+    main .container2 a img{
+        width: 300px;
+         
+    }
+    main .container2 a p{
+        text-align: center;
+    }
+
     
 }
 @media screen and (min-width: 1200px){
@@ -277,5 +323,78 @@ footer .autor span{
         margin-bottom: 0px;
         padding-bottom: 0px;
         box-shadow: inset 0px 0px 10px 1px black;
+        background-attachment: fixed;
+    }
+    header .logo{
+        float: left;
+        margin-left: 60px;
+    }
+    header nav{
+        background: transparent;
+        float: right;
+        box-shadow: 0px 0px 0px transparent;
+        margin: 36px 15px 0px 0px;
+        padding: 0px;
+        
+    }
+    header nav ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    header nav ul li{
+        display: inline-block;
+    }
+    header nav ul li a{
+        color: var(--corxgo1);
+        text-shadow: 0px 0px 0px var(--corxgo1);
+        font-weight: bold;
+    }
+    header nav ul li a:hover{
+        color: white;
+    }
+    .bannerflex{
+        display: flex;
+        justify-content: center;
+        padding: 24px 0px;
+        
+
+    }
+    .bannerflex .perfil-img{
+        margin-right: 80px;
+    }
+    .bannerflex .nome-txt{
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .col-1-4{
+        width: 23%;
+        margin: 1%;
+    }
+    .col-1-4 p{
+        text-align: justify;
+    }
+
+    .cursosflex{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cursosflex .cursando{
+        text-align: left;
+        margin-right: 20px;
+        padding: 0px;
+
+    }
+    main .container2 a{
+        margin: 5px 20px 5px 5px;
+    }
+    main .container2 a img{
+        width: 300px;
+         
+    }
+    main .container2 a p{
+        text-align: center;
+    }
+    .PC img{
+        width: 500px;
     }
 }

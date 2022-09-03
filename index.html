@@ -13,14 +13,14 @@
 
 
     <header>
-        <img src="imagens/logo_principal.svg" alt="Logo">
+        <img src="imagens/logo_principal.svg" alt="Logo" class="logo" id="loc-log">
 
         <nav>
             <ul>
-                <li><a href="#">Inico</a></li>
+                <li><a href="#loc-log">Inico</a></li>
                 <li><a href="https://wa.me/qr/H3R7PUVHLLMPK1" target="_blank">Contato</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a href="#loc-hab">Habilidades</a></li>
+                <li><a href="#loc-pro">Projetos</a></li>
             </ul>
         </nav>
     </header>
@@ -30,10 +30,12 @@
     </div>
 
     <div class="bannerflex">
-        <img src="imagens/main.jpg" alt="perfil">
-        <h1>Ivanieliton N Rodrigues</h1>
-        <h2>Eu Sou <span>Programador</span></h2>
-        <a href="https://wa.me/qr/H3R7PUVHLLMPK1" target="_blank">Contate-me</a>
+        <div class="perfil-img"><img src="imagens/main.jpg" alt="perfil"></div>
+        <div class="nome-txt">
+            <h1>Ivanieliton <span>N</span> Rodrigues</h1>
+            <h2>Eu Sou <span>Programador</span></h2>
+            <a href="https://wa.me/qr/H3R7PUVHLLMPK1" target="_blank">Contate-me</a>
+        </div>
     </div>
 
     <div class="traço-traço">
@@ -43,33 +45,34 @@
     <main>
 
 
-        <section class="container1">
+        <section class="container1 row">
+            <h2 id="loc-hab">HABILIDADES</h2>
+
+            <div class="centralizar">
+                <article class="col-1-4">
+                    <img src="imagens/emprego.png" alt="ico">
+                    <h3>Objetivo</h3>
+                    <p>Busco uma <span>vaga</span> no mercado onde possa colocar minhas habilidades em prática e colaborar com equipes de trabalho, tendo o <span>crescimento da organização</span> e o desenvolvimento pessoal e profissional como focos principais.</p>
+                </article>
+                <article class="col-1-4">
+                    <img src="imagens/cronômetro.png" alt="ico">
+                    <h3>Aprendizado</h3>
+                    <p>Eu tenho um grande histórico de aprendizado, meu maior desempenho sempre foi na área da <span>Tecnologia</span>, onde me encontro recentemente estudando <span>Programação</span>, um grande <span>Sonho</span> meu. Mas não me limito apenas a área de <span>TI</span>, tendo um grande êxito na área do <span>Design</span> e do <span>Marketing Digital</span> - Compra e Venda.</p>
+                </article>
+                
+                <article class="col-1-4">
+                    <img src="imagens/estatísticas.png" alt="ico">
+                    <h3>Adaptação</h3>
+                    <p>Acompanhar o <span>Padrão</span> e desenvolver as atividades não são desafios impossível. Adapto-me <span>Rapidamente</span> as tecnologias aplicadas nos <span>projetos</span>, compreendo as instruções passadas e enquadrar-me tranquilamente nas atividades.</p>
+                </article>
+                <article class="col-1-4 ultimoart">
+                    <img src="imagens/gráfico.png" alt="ico">
+                    <h3>Equipe</h3>
+                    <p>Meu relacionamento para com meus companheiros é totamente <span>Profissional</span>, visando colaborrar ao máximo, ajudando e recebendo instruções quando <span>necessário</span>.</p>
+                </article>
+            </div>
 
 
-            <h2>HABILIDADES</h2>
-            <article>
-                <img src="imagens/cronômetro.png" alt="ico">
-                <h3>Aprendizado</h3>
-                <p>Eu tenho um grande histórico de aprendizado, meu maior desempenho sempre foi na área da <span>Tecnologia</span>, onde me encontro recentemente estudando <span>Programação</span>, um grande <span>Sonho</span> meu. Mas não me limito apenas a área de <span>TI</span>, tendo um grande êxito na área do <span>Design</span> e do <span>Marketing Digital</span> - Compra e Venda.</p>
-            </article>
-
-            <article>
-                <img src="imagens/estatísticas.png" alt="ico">
-                <h3>Adaptação</h3>
-                <p>Acompanhar o <span>Padrão</span> e desenvolver as atividades não são desafios impossível. Adapto-me <span>Rapidamente</span> as tecnologias aplicadas nos <span>projetos</span>, compreendo as instruções passadas e enquadrar-me tranquilamente nas atividades.</p>
-            </article>
-
-            <article>
-                <img src="imagens/gráfico.png" alt="ico">
-                <h3>Equipe</h3>
-                <p>Meu relacionamento para com meus companheiros é totamente <span>Profissional</span>, visando colaborrar ao máximo, ajudando e recebendo instruções quando <span>necessário</span>.</p>
-            </article>
-
-            <article class="ultimoart">
-                <img src="imagens/emprego.png" alt="ico">
-                <h3>Objetivo</h3>
-                <p>Busco uma <span>vaga</span> no mercado onde possa colocar minhas habilidades em prática e colaborar com equipes de trabalho, tendo o <span>crescimento da organização</span> e o desenvolvimento pessoal e profissional como focos principais.</p>
-            </article>
             
         </section>
 
@@ -77,29 +80,28 @@
             <div class="traço"></div>
         </div>
 
-        <section class="container2">
+        <section class="container2 row">
 
-
-            <h2>Projetos</h2>
-            <a href="https://ivanielitonnrodriguesdev.github.io/projeto-android/" target="_blank">
-                <img src="imagens/android.jpg" alt="projetos">
-                <p>Projeto android</p>
-            </a>
-
-            <a href="https://ivanielitonnrodriguesdev.github.io/projeto-curriculo/" target="_blank">
-                <img src="imagens/curriculo.jpg" alt="projetos">
-                <p>Projeto Curriculo</p>
-            </a>
-            
-            <a href="https://ivanielitonnrodriguesdev.github.io/Portfolio-01/" target="_blank">
-                <img src="imagens/portfolio.jpg" alt="projetos">
-                <p>Projeto Portfolio 01</p>
-            </a>
-
-            <a href="https://ivanielitonnrodriguesdev.github.io/projeto-fashion/" target="_blank">
-                <img src="imagens/mini-loja.jpg" alt="projetos">
-                <p>Projeto Mini Loja</p>
-            </a>
+            <h2 id="loc-pro">Projetos</h2>
+            <div class="centralizar">
+                <a href="https://ivanielitonnrodriguesdev.github.io/projeto-android/" target="_blank" class="col-1-4">
+                    <img src="imagens/android.jpg" alt="projetos">
+                    <p>Projeto android</p>
+                </a>
+                <a href="https://ivanielitonnrodriguesdev.github.io/projeto-curriculo/" target="_blank" class="col-1-4">
+                    <img src="imagens/curriculo.jpg" alt="projetos">
+                    <p>Projeto Curriculo</p>
+                </a>
+                
+                <a href="https://ivanielitonnrodriguesdev.github.io/Portfolio-01/" target="_blank" class="col-1-4">
+                    <img src="imagens/portfolio.jpg" alt="projetos">
+                    <p>Projeto Portfolio 01</p>
+                </a>
+                <a href="https://ivanielitonnrodriguesdev.github.io/projeto-fashion/" target="_blank" class="col-1-4">
+                    <img src="imagens/mini-loja.jpg" alt="projetos">
+                    <p>Projeto Mini Loja</p>
+                </a>
+            </div >
 
 
         </section>
@@ -108,9 +110,10 @@
             <div class="traço"></div>
         </div>
 
-        <section class="container3">
-            <h2>Cursando</h2>
+        <section class="container3 cursosflex">
+            
           <article class="cursos">
+            <h2>Cursando</h2>
                 <ul class="cursando">
                     <li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video</a></li>
                     <li><a href="https://cursos.dankicode.com/loja" target="_blank">Danki Code</a></li>
@@ -127,7 +130,8 @@
                     <li>Operador Gráfico – 93 Horas (Photoshop - CEFEC - 2017)</li>
                   </ul>
             </article>
-            
+        </section>
+        <section class="container3">    
             <div class="traço-traço">
                 <div class="traço"></div>
             </div>
@@ -136,7 +140,7 @@
                 <h2>Como Estudo?</h2>
                 <p>Recentemente estou estudando em casa por <span>EAD</span> na minha "<span>Maquina</span>". Montei um <span>PC Gamer</span> Médio, peça por peça, tanto para uso particular de diverção quanto para o uso <span>Profissional</span>!</p>
                 <img src="imagens/bancada.jpg" alt="pc">
-                <h3>Requisitos Básicos do PC</h3>
+                <h3 style="margin-top: 20px;">Requisitos Básicos do PC</h3>
                 <ul class="cursos">
                     <li>Processador: Ryzen 5 5500</li>
                     <li>Memoria Ram: 16GB 3000hz</li>
@@ -147,6 +151,7 @@
                     
                 </ul>
                 <p>Rodando tanto <span>Jogos Pesados</span> quanto <span>Programas Pesados</span></p>
+                <a href="#loc-log" class="bot-home"><p>HOME</p></a>
             </article>
         </section>
 
