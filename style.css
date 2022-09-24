@@ -67,7 +67,7 @@ header nav ul li a:hover{
     background-color: rgba(206, 206, 206, 0.534);
 }
 .traço{
-    width: 400px;
+    width: 300px;
     height: -1px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.308);
     margin: auto;
