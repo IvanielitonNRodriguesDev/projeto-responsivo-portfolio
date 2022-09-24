@@ -27,11 +27,12 @@ header{
     width: 100%;
 }
 header img{
-    width: 100%;
+    width: 300px;
     height: 70px;
     display: flex;
     margin: auto;
     margin-top: 1em;
+    padding: 0px;
     
 }
 header nav{
